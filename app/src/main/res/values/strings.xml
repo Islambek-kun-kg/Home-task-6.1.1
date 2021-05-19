@@ -3,4 +3,5 @@
     <string name="write_something">Write something</string>
     <string name="next_intent">Next intent</string>
     <string name="previous_intent">Previous intent</string>
+    <string name="write_some">WRITE SOMETHING!!!</string>
 </resources>
