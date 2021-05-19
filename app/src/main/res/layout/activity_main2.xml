@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/txt_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        tools:text="________" />
+
+    <EditText
+        android:id="@+id/edt_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_view2"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:autofillHints="@string/write_something"
+        android:hint="@string/write_something"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_txt2"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:text="@string/previous_intent"
+        android:textAllCaps="false" />
+
+</RelativeLayout>
